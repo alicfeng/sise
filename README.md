@@ -3,13 +3,15 @@
 
 开发模式采用MVP【可维护性高】 UI框架可扩展性非常强
 
-Welcome
- ![image](https://github.com/alicance/MyScse-Client/raw/master/images/welcome.png)
+Welcome-UI
 
-Login
- ![image](https://github.com/alicance/MyScse-Client/raw/master/images/login.png)
+![image](https://github.com/alicance/MyScse-Client/raw/master/images/welcome.png)
 
-课程表
+Login-UI
+
+![image](https://github.com/alicance/MyScse-Client/raw/master/images/login.png)
+
+Course-UI
 ![image](https://github.com/alicance/MyScse-Client/raw/master/images/courses.png) 
 
 Course_Detail
