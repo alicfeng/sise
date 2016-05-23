@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:showIn="@layout/activity_course_detail">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/course_inform"
+        android:textColor="@color/colorPrimary"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="5dp"
+        android:background="@color/colorPrimary" />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/tablerow_margin"
+            android:gravity="center_vertical"
+            android:padding="0dp">
+
+            <View
+                android:id="@+id/course_name"
+                android:layout_width="@dimen/icon_view_width"
+                android:layout_height="20dp"
+                android:layout_gravity="center"
+                android:layout_marginEnd="@dimen/view_margin_right"
+                android:background="@color/colorPrimary"
+                android:gravity="center" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/tv_margin_right"
+                android:text="@string/course_name" />
+
+            <TextView
+                android:id="@+id/show_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"/>
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="@dimen/view_to_height" />
+        </TableRow>
+        <View
+            android:layout_height="0.5dp"
+            android:layout_width="match_parent"
+            android:background="@color/divide_line"/>
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:gravity="center_vertical"
+            android:padding="0dp">
+
+            <View
+                android:id="@+id/course_room"
+                android:layout_width="@dimen/icon_view_width"
+                android:layout_height="20dp"
+                android:layout_gravity="center"
+                android:layout_marginRight="@dimen/view_margin_right"
+                android:background="@color/colorPrimary"
+                android:gravity="center" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/course_room" />
+
+            <TextView
+                android:id="@+id/show_room"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:text="@string/course_room" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="@dimen/view_to_height" />
+        </TableRow>
+        <View
+            android:layout_height="0.5dp"
+            android:layout_width="match_parent"
+            android:background="@color/divide_line"/>
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:gravity="center_vertical"
+            android:padding="0dp">
+
+            <View
+                android:id="@+id/course_teacher"
+                android:layout_width="@dimen/icon_view_width"
+                android:layout_height="20dp"
+                android:layout_gravity="center"
+                android:layout_marginRight="@dimen/view_margin_right"
+                android:background="@color/colorPrimary"
+                android:gravity="center" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/course_teacher" />
+
+            <TextView
+                android:id="@+id/show_teacher"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:text="@string/course_teacher" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="@dimen/view_to_height" />
+        </TableRow>
+        <View
+            android:layout_height="0.5dp"
+            android:layout_width="match_parent"
+            android:background="@color/divide_line"/>
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:gravity="center_vertical"
+            android:padding="0dp">
+
+            <View
+                android:id="@+id/course_num"
+                android:layout_width="@dimen/icon_view_width"
+                android:layout_height="20dp"
+                android:layout_gravity="center"
+                android:layout_marginRight="@dimen/view_margin_right"
+                android:background="@color/colorPrimary"
+                android:gravity="center" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/course_num" />
+
+            <TextView
+                android:id="@+id/show_num"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:text="@string/course_num" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="@dimen/view_to_height" />
+        </TableRow>
+        <View
+            android:layout_height="0.5dp"
+            android:layout_width="match_parent"
+            android:background="@color/divide_line"/>
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:gravity="center_vertical"
+            android:padding="0dp">
+
+            <View
+                android:id="@+id/course_week"
+                android:layout_width="@dimen/icon_view_width"
+                android:layout_height="20dp"
+                android:layout_gravity="center"
+                android:layout_marginRight="@dimen/view_margin_right"
+                android:background="@color/colorPrimary"
+                android:gravity="center" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/course_week" />
+
+            <TextView
+                android:id="@+id/show_week"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:text="@string/course_week" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="@dimen/view_to_height" />
+        </TableRow>
+    </TableLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/course_class_time"
+        android:textColor="@color/colorPrimary"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="5dp"
+        android:background="@color/colorPrimary" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:gravity="center_vertical"
+        android:padding="1dp">
+
+        <View
+            android:id="@+id/course_time"
+            android:layout_width="@dimen/icon_view_width"
+            android:layout_height="20dp"
+            android:layout_gravity="center"
+            android:layout_marginRight="@dimen/view_margin_right"
+            android:background="@color/colorPrimary"
+            android:gravity="center" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/tv_margin_right"
+            android:text="@string/course_time" />
+
+        <TextView
+            android:id="@+id/show_time"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="@string/course_week" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="@dimen/view_to_height" />
+    </LinearLayout>
+
+</LinearLayout>

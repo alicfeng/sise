@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--主题颜色-->
+    <color name="colorPrimary">#ff5ABEDC</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="divide_line">#cccc</color>
+    <color name="color_gray_font">#555555</color>
+    <color name="color_class_selected">#ff9A7CAF</color>
+    <color name="color_course_background">#ffffff</color>
+    <color name="color_attendance_background">#818181</color>
+</resources>

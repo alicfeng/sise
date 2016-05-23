@@ -1,0 +1,62 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="adapter_height">47dp</dimen>
+    <dimen name="right_left_margin">6dp</dimen>
+    <dimen name="ten_dp">10dp</dimen>
+
+    <!--home-->
+    <dimen name="main_menu_top_bottom_left_padding">4dp</dimen>
+    <dimen name="main_menu_height">54dp</dimen>
+    <dimen name="main_menu_icon_height">26dp</dimen>
+    <dimen name="main_menu_text_height">20dp</dimen>
+
+    <!--home_viewpager_one-->
+    <dimen name="tv_height_size">55dp</dimen>
+    <dimen name="tv_width_size">30dp</dimen>
+    <dimen name="tvn_width_size">47dp</dimen>
+    <dimen name="lr_height_size">110dp</dimen>
+
+    <!--hoe_class_course_shape_style-->
+    <dimen name="corners_size">5dp</dimen>
+
+    <dimen name="login_font_size">14sp</dimen>
+
+    <!--content_course_detail-->
+    <dimen name="icon_view_width">20dp</dimen>
+    <dimen name="tv_margin_right">15dp</dimen>
+    <dimen name="view_to_height">40dp</dimen>
+    <dimen name="view_margin_right">5dp</dimen>
+    <dimen name="tablerow_margin">5dp</dimen>
+
+    <!-- home_viewpager_four -->
+    <dimen name="fab_size">56dp</dimen>
+    <dimen name="button_elevation">2dp</dimen>
+    <dimen name="button_press_elevation">4dp</dimen>
+    <dimen name="navigation_drawer_width">240dp</dimen>
+
+    <!--extra-->
+    <dimen name="dimen_point_five">0.5dp</dimen>
+    <dimen name="dimen_five">5dp</dimen>
+    <dimen name="dimen_ten">10dp</dimen>
+    <dimen name="dimen_fifteen">15dp</dimen>
+    <dimen name="dimen_twenty">20dp</dimen>
+    <dimen name="dimen_twenty_five">25dp</dimen>
+    <dimen name="dimen_thirty">30dp</dimen>
+    <dimen name="dimen_forty">40dp</dimen>
+    <dimen name="dimen_fifty">50dp</dimen>
+    <dimen name="dimen_fifty_five">55dp</dimen>
+    <dimen name="dimen_sixty">60dp</dimen>
+    <dimen name="dimen_hundred">100dp</dimen>
+    <dimen name="dimen_two_hundred">200dp</dimen>
+
+
+    <!--字体大小-->
+    <dimen name="font_size_sixteen">16sp</dimen>
+    <dimen name="font_size_eighteen">18sp</dimen>
+    <dimen name="font_size_twenty">20sp</dimen>
+
+
+</resources>

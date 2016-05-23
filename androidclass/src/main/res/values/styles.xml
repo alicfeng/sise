@@ -1,0 +1,54 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="fragment_text">
+        <item name="android:textColor">#ffacacac</item>
+        <item name="android:textSize">25sp</item>
+    </style>
+
+    <!--alic here-->
+    <!--进度条样式-->
+    <style name="progressbar_style">
+        <item name="android:indeterminateDrawable">@drawable/progressbar_style</item>
+        <item name="android:indeterminate">true</item>
+    </style>
+
+
+    <!--home_viewpager_one-->
+    <style name="courseTableText">
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">1dp</item>
+        <item name="android:layout_margin">2dp</item>
+    </style>
+
+    <!--home_viewpager_one_classes_title-->
+    <style name="courseTitleText">
+        <item name="android:textColor">#ff5ABEDC</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <!--空心按钮样式-->
+    <style name="stomach_button_style">
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:background">#ffffffff</item>
+        <item name="android:src">@drawable/stomach_button</item>
+    </style>
+</resources>

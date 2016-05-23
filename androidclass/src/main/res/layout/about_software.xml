@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <!--模拟一个toolbar-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen_fifty_five"
+        android:background="@color/colorPrimary"
+        android:paddingEnd="@dimen/dimen_ten"
+        android:paddingStart="@dimen/dimen_ten">
+
+        <View
+            android:id="@+id/about_software_back_icon"
+            android:layout_width="@dimen/dimen_twenty"
+            android:layout_height="@dimen/dimen_twenty"
+            android:layout_gravity="start|center_vertical" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="start"
+            android:layout_marginStart="@dimen/dimen_five"
+            android:text="@string/about_app"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/font_size_sixteen" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen_two_hundred"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="@dimen/dimen_hundred"
+            android:layout_height="@dimen/dimen_hundred"
+            android:layout_gravity="center"
+            android:src="@drawable/app_icon" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingEnd="@dimen/activity_horizontal_margin"
+        android:paddingStart="@dimen/activity_horizontal_margin">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/divide_line" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dimen_fifty">
+            <TextView
+                android:layout_width="0.0dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="0dp"
+                android:layout_weight="1"
+                android:gravity="start|center_vertical"
+                android:text="@string/about_app_name" />
+            <TextView
+                android:layout_width="0.0dp"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="0dp"
+                android:layout_weight="1"
+                android:gravity="end|center_vertical"
+                android:text="@string/app_name" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/divide_line" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dimen_fifty">
+            <TextView
+                android:layout_width="0.0dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="0dp"
+                android:layout_weight="1"
+                android:gravity="start|center_vertical"
+                android:text="@string/about_app_code" />
+            <TextView
+                android:id="@+id/about_app_version_name"
+                android:layout_width="0.0dp"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="0dp"
+                android:layout_weight="1"
+                android:gravity="end|center_vertical"
+                android:text="@string/app_name" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/divide_line" />
+
+        <LinearLayout
+            android:id="@+id/about_idea"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dimen_fifty">
+            <TextView
+                android:layout_width="0.0dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="0dp"
+                android:layout_weight="1"
+                android:gravity="start|center_vertical"
+                android:text="@string/about_app_idea" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/divide_line" />
+
+        <LinearLayout
+            android:id="@+id/about_update"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dimen_fifty">
+            <TextView
+                android:layout_width="0.0dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="0dp"
+                android:layout_weight="1"
+                android:gravity="start|center_vertical"
+                android:text="@string/about_app_update" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/divide_line" />
+    </LinearLayout>
+
+</LinearLayout>

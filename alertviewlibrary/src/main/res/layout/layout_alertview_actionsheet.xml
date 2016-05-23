@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/loAlertHeader"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.0"
+        android:background="@drawable/bg_actionsheet_header"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvAlertTitle"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/height_actionsheet_title"
+            android:gravity="center"
+            android:textColor="@color/textColor_actionsheet_title"
+            android:textSize="@dimen/textSize_actionsheet_title" />
+
+        <TextView
+            android:id="@+id/tvAlertMsg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/marginBottom_actionsheet_msg"
+            android:gravity="center"
+            android:textColor="@color/textColor_actionsheet_msg"
+            android:textSize="@dimen/textSize_actionsheet_msg" />
+
+        <ListView
+            android:id="@+id/alertButtonListView"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:cacheColorHint="@android:color/transparent"
+            android:divider="@null"
+            android:listSelector="@drawable/bg_alertbutton_none"
+            android:scrollbars="none" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvAlertCancel"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="@dimen/margin_actionsheet_left_right"
+        android:background="@android:color/transparent"
+        android:clickable="true"
+        android:gravity="center"
+        android:textColor="@color/textColor_alert_button_cancel"
+        android:textSize="@dimen/textSize_alert_button"
+        android:textStyle="bold"
+        android:visibility="gone" />
+</LinearLayout>

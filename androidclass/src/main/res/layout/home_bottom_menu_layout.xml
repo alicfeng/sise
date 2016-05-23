@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/home_main_menu_layout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/main_menu_height"
+    android:layout_alignParentBottom="true"
+    android:paddingBottom="@dimen/main_menu_top_bottom_left_padding"
+    android:paddingTop="@dimen/main_menu_top_bottom_left_padding">
+
+    <LinearLayout
+        android:id="@+id/home_menu_item_classes"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="1">
+        <View
+            android:id="@+id/home_menu_item_classes_icon"
+            android:layout_width="@dimen/main_menu_icon_height"
+            android:layout_height="@dimen/main_menu_icon_height"
+            android:layout_gravity="center"
+            android:gravity="center" />
+        
+        <TextView
+            android:id="@+id/home_menu_item_classes_title"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/main_menu_text_height"
+            android:textColor="@drawable/home_menu_text_style"
+            android:gravity="center"
+            android:text="@string/home_menu_item_classes"
+            android:textSize="12sp"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/home_menu_item_attendance"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="1">
+        <View
+            android:id="@+id/home_menu_item_attendance_icon"
+            android:layout_width="@dimen/main_menu_icon_height"
+            android:layout_height="@dimen/main_menu_icon_height"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:background="@color/colorPrimary"/>
+        <TextView
+            android:id="@+id/home_menu_item_attendance_title"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/main_menu_text_height"
+            android:textColor="@drawable/home_menu_text_style"
+            android:gravity="center"
+            android:text="@string/home_menu_item_attendance"
+            android:textSize="12sp"/>
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:id="@+id/home_menu_item_exam"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="1">
+        <View
+            android:id="@+id/home_menu_item_exam_icon"
+            android:layout_width="@dimen/main_menu_icon_height"
+            android:layout_height="@dimen/main_menu_icon_height"
+            android:layout_gravity="center"
+            android:gravity="center" />
+        <TextView
+            android:id="@+id/home_menu_item_exam_title"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/main_menu_text_height"
+            android:textColor="@drawable/home_menu_text_style"
+            android:gravity="center"
+            android:text="@string/home_menu_item_exam"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/home_menu_item_grade"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="1">
+        <View
+            android:id="@+id/home_menu_item_grade_icon"
+            android:layout_width="@dimen/main_menu_icon_height"
+            android:layout_height="@dimen/main_menu_icon_height"
+            android:layout_gravity="center"
+            android:gravity="center" />
+        <TextView
+            android:id="@+id/home_menu_item_grade_title"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/main_menu_text_height"
+            android:textColor="@drawable/home_menu_text_style"
+            android:gravity="center"
+            android:text="@string/home_menu_item_grade"
+            android:textSize="12sp"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/home_menu_item_menu"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="1">
+        <View
+            android:id="@+id/home_menu_item_menu_icon"
+            android:layout_width="@dimen/main_menu_icon_height"
+            android:layout_height="@dimen/main_menu_icon_height"
+            android:background="@color/colorPrimary"
+            android:layout_gravity="center"
+            android:gravity="center" />
+        <TextView
+            android:id="@+id/home_menu_item_menu_title"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/main_menu_text_height"
+            android:textColor="@drawable/home_menu_text_style"
+            android:gravity="center"
+            android:text="@string/home_menu_item_menu"
+            android:textSize="12sp"/>
+    </LinearLayout>
+
+
+</LinearLayout>

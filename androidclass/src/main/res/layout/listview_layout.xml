@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:gravity="center_vertical"
+    android:orientation="horizontal" >
+
+    <LinearLayout
+        android:layout_width="199dp"
+        android:layout_height="80dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/list_tv"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="毛泽东思想与中国特色社会主义理论体系概论"
+            android:textSize="18dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/list_content_tv1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            
+            android:text="[GE0071]"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/list_content_tv2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="28dp"
+            android:gravity="right"
+            android:text="全勤"
+            android:textSize="16dp" />
+    </LinearLayout>
+
+</LinearLayout>

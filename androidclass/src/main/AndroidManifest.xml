@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.same.androidclass">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <!--开机启动-->
+        <receiver android:name=".receiver.BootCompleteReceiver">
+            <intent-filter
+                android:priority="500">
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+            </intent-filter>
+        </receiver>
+        <!--额外服务-->
+        <service android:name=".service.ExtraService">
+
+        </service>
+        <!--核心服务-->
+        <service android:name=".service.CoreService">
+
+        </service>
+        <!--欢迎界面activity-->
+        <activity
+            android:name=".view.activity.WelcomeActivity"
+            android:label="MyScse"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <!--引导界面activity-->
+        <activity
+            android:name=".view.activity.GuideActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+
+        </activity>
+        <!--登陆界面-->
+        <activity
+            android:name=".view.activity.StudentLoginActivity"
+            android:label="@string/login_label"
+            android:theme="@style/AppTheme.NoActionBar">
+
+        </activity>
+        <!--app主界面-->
+        <activity
+            android:name=".view.activity.MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+
+        </activity>
+        <!--课程具体信息界面-->
+        <activity
+            android:name=".view.activity.CourseDetailActivity"
+            android:label=""
+            android:theme="@style/AppTheme.NoActionBar">
+
+        </activity>
+        <!--考试具体信息界面-->
+        <activity
+            android:name=".view.activity.ExamDetailActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+
+        </activity>
+
+        <!--关于软件-->
+        <activity
+            android:name=".view.activity.AboutSoftwareActivity"
+            android:label=""
+            android:theme="@style/AppTheme.NoActionBar">
+
+        </activity>
+
+        <!--成绩列表-->
+        <activity
+            android:name=".view.activity.GradeDetailActivity"
+            android:label=""
+            android:theme="@style/AppTheme.NoActionBar">
+
+        </activity>
+
+        <!--学期选择-->
+
+        <!--学分详情-->
+        <activity
+            android:name=".view.activity.CreditShowActivity"
+            android:label=""
+            android:theme="@style/AppTheme.NoActionBar">
+
+        </activity>
+
+        <!--提醒功能设置-->
+        <activity android:name=".view.activity.CourseRemindActivity"
+            android:label="">
+
+        </activity>
+    </application>
+</manifest>

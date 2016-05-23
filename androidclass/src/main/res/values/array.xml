@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="year_tern">
+        <item>2015-2016学年，第二学期</item>
+        <item>2015-2016学年，第一学期</item>
+        <item>2014-2015学年，第二学期</item>
+        <item>2014-2015学年，第一学期</item>
+    </string-array>
+</resources>

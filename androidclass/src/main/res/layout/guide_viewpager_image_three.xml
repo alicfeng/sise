@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAccent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/actionEnter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/stomach_button"
+        android:paddingRight="@dimen/dimen_thirty"
+        android:paddingLeft="@dimen/dimen_thirty"
+        android:layout_marginBottom="@dimen/dimen_thirty"
+        android:text="@string/guide_button_text"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:textColor="@color/colorPrimary"/>
+</RelativeLayout>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!--模拟一个toolbar-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen_fifty_five"
+        android:background="@color/colorPrimary"
+        android:paddingEnd="@dimen/dimen_ten"
+        android:paddingStart="@dimen/dimen_ten">
+
+        <View
+            android:id="@+id/grade_lv_back_icon"
+            android:layout_width="@dimen/dimen_twenty"
+            android:layout_height="@dimen/dimen_twenty"
+            android:layout_gravity="start|center_vertical" />
+
+        <TextView
+            android:id="@+id/grade_lv_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/font_size_sixteen" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/school_year"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen_twenty_five"
+        android:gravity="center"
+         />
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="0.5dp"
+        android:background="@color/divide_line" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen_thirty"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingStart="@dimen/activity_horizontal_margin"
+            android:text="课程名称"
+            android:textColor="@color/colorPrimary" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingEnd="@dimen/activity_horizontal_margin"
+            android:gravity="end"
+            android:text="成绩"
+            android:textColor="@color/colorPrimary" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="0.5dp"
+        android:background="@color/divide_line" />
+
+    <ExpandableListView
+        android:id="@+id/grade_elv"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:scrollbars="none"/>
+
+</LinearLayout>

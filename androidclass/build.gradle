@@ -1,0 +1,37 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 23
+    buildToolsVersion "23.0.2"
+
+    defaultConfig {
+        applicationId "com.same.androidclass"
+        minSdkVersion 18
+        targetSdkVersion 23
+        versionCode 2
+        versionName "1.0.1"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    testCompile 'junit:junit:4.12'
+    compile 'com.android.support:appcompat-v7:23.2.0'
+    compile 'com.android.support:design:23.2.0'
+    compile files('lib/gson-2.2.4.jar')
+    compile files('lib/jsoup-1.9.1.jar')
+    compile files('lib/okhttp-3.2.0.jar')
+    compile files('lib/okio-1.7.0.jar')
+    compile project(':ResideMenu')
+    compile project(':icon-library')
+    compile project(':alertviewlibrary')
+    compile project(':zProgressHUD')
+    compile project(':WheelPickerLibrary')
+    compile project(':ToggleButtonLib')
+}
